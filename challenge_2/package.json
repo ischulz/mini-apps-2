@@ -1,0 +1,55 @@
+{
+  "name": "cryptoChart",
+  "version": "1.0.0",
+  "description": "miniApp1",
+  "author": "Ilias Schulz",
+  "license": "",
+  "engines": {
+    "node": ">=6.13.0"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "react-dev": "webpack -d --watch",
+    "server-dev": "nodemon server.js",
+    "seed_database": "node initialdbSeed.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "chart.js": "^2.7.2",
+    "cors": "^2.8.4",
+    "file-system": "^2.2.2",
+    "https": "^1.0.0",
+    "jquery": "^3.1.1",
+    "mongo": "^0.1.0",
+    "mongoose": "^5.0.12",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.3",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
+    "react-chartjs-2": "^2.7.0",
+    "react-dom": "^16.2.0",
+    "react-dropdowns-datepicker": "^1.0.3",
+    "react-materialize": "^2.1.4",
+    "request": "^2.85.0",
+    "url-loader": "^1.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^6.4.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "css-loader": "^0.28.10",
+    "style-loader": "^0.20.2",
+    "express": "^4.16.2",
+    "webpack": "^2.2.1",
+    "webpack-node-externals": "^1.6.0"
+  }
+}
