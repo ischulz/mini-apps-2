@@ -1,0 +1,19 @@
+.cell {
+  text-align: center;
+  box-sizing: border-box;
+  width: 10%;
+  height: 10%;
+  margin: 0;
+  padding: 0;
+}
+
+.cellClicked {
+  background-color: white;
+  border: 1px solid red;
+
+}
+
+.cellUnclicked {
+  background-color: steelblue;
+  border: 1px solid black;
+}
